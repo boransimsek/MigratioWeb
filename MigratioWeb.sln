@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratioWeb", "MigratioWeb\MigratioWeb.csproj", "{859921A8-5632-4D04-86D3-0C465DB3DDC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratioWeb.DAL", "MigratioWeb.DAL\MigratioWeb.DAL.csproj", "{B72103DD-DBA4-4C71-AD48-7E20CA11BDBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859921A8-5632-4D04-86D3-0C465DB3DDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859921A8-5632-4D04-86D3-0C465DB3DDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859921A8-5632-4D04-86D3-0C465DB3DDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859921A8-5632-4D04-86D3-0C465DB3DDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72103DD-DBA4-4C71-AD48-7E20CA11BDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72103DD-DBA4-4C71-AD48-7E20CA11BDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72103DD-DBA4-4C71-AD48-7E20CA11BDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72103DD-DBA4-4C71-AD48-7E20CA11BDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
