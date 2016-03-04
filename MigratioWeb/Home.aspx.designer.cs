@@ -10,7 +10,7 @@
 namespace MigratioWeb {
     
     
-    public partial class _Default {
+    public partial class Home {
         
         /// <summary>
         /// form1 control.

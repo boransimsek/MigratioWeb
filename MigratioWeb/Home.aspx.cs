@@ -10,18 +10,12 @@ using MigratioWeb.DAL.Models.ViewModels;
 
 namespace MigratioWeb
 {
-    [AjaxNamespace("AjaxHome")]
-    public partial class _Default : Page
+    [AjaxNamespace("AjaxTest")]
+    public partial class Home : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            AjaxPro.Utility.RegisterTypeForAjax(typeof(_Default));
-        }
-
-        [AjaxMethod]
-        public string TestAjax()
-        {
-            return "Hello";
+            AjaxPro.Utility.RegisterTypeForAjax(typeof(Home));
         }
 
         [AjaxMethod]

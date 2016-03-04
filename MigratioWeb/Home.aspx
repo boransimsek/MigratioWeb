@@ -1,4 +1,5 @@
-﻿<%@ Page Title="Home Page" Language="C#"  AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MigratioWeb._Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="MigratioWeb.Home" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -78,12 +79,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             loadMap();
-            //var res = AjaxHome.TestAjax();
-            //alert(res.value);
         });
-
-        
-
     </script>
 </body>
 </html>

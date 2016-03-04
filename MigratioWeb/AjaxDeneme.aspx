@@ -18,11 +18,48 @@
 
 </head>
 <body>
+
     <form id="form1" runat="server">
         <div>
             <input type="text" id="txtMessage">
             <button id="btnTest" onclick="return getMessage();">Test</button>
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        </div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+
+
+        <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-2">
+                <label class="label-default" text="asdasdas">Governorate: </label>
+                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                    <ContentTemplate>
+
+                        <asp:DropDownList ID="ddlGovernorate" runat="server" AutoPostBack="True"></asp:DropDownList>
+                    </ContentTemplate>
+                    <Triggers>
+                        <asp:AsyncPostBackTrigger ControlID="ddlGovernorate" EventName="SelectedIndexChanged" />
+                    </Triggers>
+                </asp:UpdatePanel>
+            </div>
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-2">
+                <label class="label-default">District: </label>
+                <asp:DropDownList ID="ddlDistrict" runat="server" OnSelectedIndexChanged="ddlDistrict_OnSelectedIndexChanged"></asp:DropDownList>
+            </div>
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-2">
+                <label class="label-default">Place: </label>
+                <asp:DropDownList ID="ddlPlace" runat="server"></asp:DropDownList>
+            </div>
+            <div class="col-lg-2">
+                <input type="button" id="btnFilter" value="Filter" />
+            </div>
+            <div class="col-lg-1">
+            </div>
         </div>
 
         <div class="row">
@@ -33,6 +70,7 @@
             </div>
             <div class="col-lg-1"></div>
         </div>
+
     </form>
 
     <script type="text/javascript">
