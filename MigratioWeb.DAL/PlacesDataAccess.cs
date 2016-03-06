@@ -26,7 +26,7 @@ namespace MigratioWeb.DAL
                                   }).ToList();
                     return result;
                 }
-                catch (Exception)
+                catch (Exception exc)
                 {
                     return new List<GovDistPlaceVM>();
                 }

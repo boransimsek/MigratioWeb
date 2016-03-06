@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="DistrictDataAccess.cs" />
+    <Compile Include="GovernorateDataAccess.cs" />
     <Compile Include="Models\District.cs" />
     <Compile Include="Models\Governorate.cs" />
     <Compile Include="Models\Mappings\DistrictMap.cs" />
